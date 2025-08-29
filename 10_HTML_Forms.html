@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+
+    <style>
+        #registration-form {
+            background-color: aqua;
+            padding: 5px;
+            width: 650px;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="registration-form">
+        <h2>Placement Drive Registration Form</h2>
+        <form>
+            <div>
+                <label for="username">User Name :</label>
+                <input id="username" type="text" placeholder="user name">
+            </div>
+            <div>
+                <label>Telephone</label>
+                <input type="tel" placeholder="telephone">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="email">
+            </div>
+            <div>
+                <label>password</label>
+                <input type="password">
+            </div>
+            <div>
+                <label>D.O.B</label>
+                <input type="datetime-local">
+            </div>
+            <div>
+                <label>Salary Expectations</label>
+                <input type="range"><label>Lpa</label>
+            </div>
+
+            <div>
+                <label>Location</label>
+                <input type="radio"><label>Pune</label>
+                <input type="radio"><label>Mumbai</label>
+                <input type="radio"><label>Delhi</label>
+            </div>
+            <div>
+                <label>Developer</label>
+                <input type="radio" name="devloper" value="FrontEnd Devlope"><label>FE</label>
+                <input type="radio" name="devloper" value="Backend Devloper"><label>Backend</label>
+                <input type="radio" name="devloper" value="FullStack Devloper"><label>FullStack</label>
+            </div>
+            <div>
+                <label>Company</label>
+                <input type="text" value="Bitwise">
+            </div>
+            <div>
+                <label>Field</label>
+                <input type="text" value="IT Service" disabled>
+            </div>
+            <div>
+                <label>Skills</label>
+                <input type="checkbox"><label>Java</label>
+                <input type="checkbox"><label>Spring Boot</label>
+                <input type="checkbox"><label>Microservices</label>
+                <input type="checkbox"><label>HTML</label>
+                <input type="checkbox"><label>CSS</label>
+                <input type="checkbox"><label>Javascript</label>
+                <input type="checkbox"><label>React</label>
+            </div>
+            <div>
+                <label>Designation</label>
+                <select>
+                    <option value="">Select Designation</option>
+                    <option value="Java Devloper">Java Backend Devloper</option>
+                    <option value="UI Devloper">UI Devloper</option>
+                    <option value="FullStack Devloper">FullStack Devloper</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>About Myself :</label>
+                <textarea rows="4" cols="40"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -139,3 +139,43 @@ internl url/part of website -> open in same tab
 syntax-> 
    <a href="https://google.com">Google</a>
 suppose you want to open some section of same page then use below 
+
+
+HTML 
+=====
+
+-Tables
+-------
+<table>  -> 
+<thead>  ->heade section of table 
+<th>   -> table header for each table 
+<tbody>  ->body section of table 
+<tr>   ->table row 
+<td>   -> table data in table body 
+<rowspan> -> row span -> combine two or more rows 
+<colspan> -> column span -> combine two or more column
+
+Forms -> collect informations from users  
+------
+<form>  -> handling form data 
+<input>  -> input elements of form -> submit, reset,text , password , email , data , time , range , color selection etc
+reset -> reset the form
+submit -> submit the form 
+syntax tag -> <input type="text">
+<label>
+<select> -> to select like dropdown
+<textarea> -> to add comments
+-> <legend> ,<fieldset>
+
+HTML 5 Tags
+===========
+<section>
+<article>
+<nav>
+<aside>
+<header>
+<footer>
+<figcaption>
+<figure>
+<audio>
+<video>
