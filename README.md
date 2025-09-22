@@ -165,13 +165,18 @@ syntax tag -> <input type="text">
 <label>
 <select> -> to select like dropdown
 <textarea> -> to add comments
+
 -> <legend> ,<fieldset>
+when we have very large form like some exam form then they hacve multiple field such as personal infomation , address , education etc such thing are writen in <fieldset> 
+<fieldset> -> set of filed called fieldset and heading to filedset given called as <legned>
+
+
 
 HTML 5 Tags
 ===========
 <section>
 <article>
-<nav>
+<nav>   -> mostly contains the links (anchor tag) <a href='#'>Home</a>
 <aside>
 <header>
 <footer>
@@ -179,3 +184,9 @@ HTML 5 Tags
 <figure>
 <audio>
 <video>
+website -> webpage -> section -> div /article
+for gallery below tag are used 
+<figcaption>
+<figure>
+
+focus on syntax only not css part
