@@ -2,7 +2,6 @@ HTML Official website:
 https://developer.mozilla.org/en-US/docs/Web/HTML
 git token : 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
 
-
 HTML 
 =====
 tags -> <htmnl> </html>
