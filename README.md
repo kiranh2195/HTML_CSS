@@ -1,4 +1,72 @@
+HTML Official website:
+
+https://developer.mozilla.org/en-US/docs/Web/HTML
+
+
 git token : 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
+
+HTML 
+=====
+tags -> <htmnl> </html>
+
+-> Header Tags 
+===============
+<h1> ,<h2>,<h3> ,<h4> , <h5> <h6>
+Larger to smaller 
+Ex:  <h1 style="color: rgb(237, 111, 100);">HTML 1</h1>
+
+->Paragraph Tag
+===============
+<p></p>
+example -> Lorem50 -> genrate dummy paragraph with 50 words 
+![alt text](image-1.png)
+-Tables
+-------
+<table>  -> 
+<thead>  ->heade section of table 
+<th>   -> table header for each table 
+<tbody>  ->body section of table 
+<tr>   ->table row 
+<td>   -> table data in table body 
+<rowspan> -> row span -> combine two or more rows 
+<colspan> -> column span -> combine two or more column
+
+Forms -> collect informations from users  
+------
+<form>  -> handling form data 
+<input>  -> input elements of form -> submit, reset,text , password , email , data , time , range , color selection etc
+reset -> reset the form
+submit -> submit the form 
+syntax tag -> <input type="text">
+<label>
+<select> -> to select like dropdown
+<textarea> -> to add comments
+
+-> <legend> ,<fieldset>
+when we have very large form like some exam form then they hacve multiple field such as personal infomation , address , education etc such thing are writen in <fieldset> 
+<fieldset> -> set of filed called fieldset and heading to filedset given called as <legned>
+
+
+
+HTML 5 Tags
+===========
+<section>
+<article>
+<nav>   -> mostly contains the links (anchor tag) <a href='#'>Home</a>
+<aside>
+<header>
+<footer>
+<figcaption>
+<figure>
+<audio>
+<video>
+website -> webpage -> section -> div /article
+for gallery below tag are used 
+<figcaption>
+<figure>
+
+focus on syntax only not css part
+
 CSS
 ===
 inline -> style attribute 
@@ -141,52 +209,6 @@ syntax->
 suppose you want to open some section of same page then use below 
 
 
-HTML 
-=====
-
--Tables
--------
-<table>  -> 
-<thead>  ->heade section of table 
-<th>   -> table header for each table 
-<tbody>  ->body section of table 
-<tr>   ->table row 
-<td>   -> table data in table body 
-<rowspan> -> row span -> combine two or more rows 
-<colspan> -> column span -> combine two or more column
-
-Forms -> collect informations from users  
-------
-<form>  -> handling form data 
-<input>  -> input elements of form -> submit, reset,text , password , email , data , time , range , color selection etc
-reset -> reset the form
-submit -> submit the form 
-syntax tag -> <input type="text">
-<label>
-<select> -> to select like dropdown
-<textarea> -> to add comments
-
--> <legend> ,<fieldset>
-when we have very large form like some exam form then they hacve multiple field such as personal infomation , address , education etc such thing are writen in <fieldset> 
-<fieldset> -> set of filed called fieldset and heading to filedset given called as <legned>
 
 
 
-HTML 5 Tags
-===========
-<section>
-<article>
-<nav>   -> mostly contains the links (anchor tag) <a href='#'>Home</a>
-<aside>
-<header>
-<footer>
-<figcaption>
-<figure>
-<audio>
-<video>
-website -> webpage -> section -> div /article
-for gallery below tag are used 
-<figcaption>
-<figure>
-
-focus on syntax only not css part
