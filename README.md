@@ -1,14 +1,11 @@
 HTML Official website:
-
 https://developer.mozilla.org/en-US/docs/Web/HTML
-
-
 git token : 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
+
 
 HTML 
 =====
 tags -> <htmnl> </html>
-
 -> Header Tags 
 ===============
 <h1> ,<h2>,<h3> ,<h4> , <h5> <h6>
