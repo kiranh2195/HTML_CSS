@@ -1,5 +1,6 @@
 HTML Official website:
 https://developer.mozilla.org/en-US/docs/Web/HTML
+w3school
 git token : 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
 
 HTML 
@@ -16,55 +17,13 @@ Ex:  <h1 style="color: rgb(237, 111, 100);">HTML 1</h1>
 <p></p>
 example -> Lorem50 -> genrate dummy paragraph with 50 words 
 ![alt text](image-1.png)
--Tables
--------
-<table>  -> 
-<thead>  ->heade section of table 
-<th>   -> table header for each table 
-<tbody>  ->body section of table 
-<tr>   ->table row 
-<td>   -> table data in table body 
-<rowspan> -> row span -> combine two or more rows 
-<colspan> -> column span -> combine two or more column
 
-Forms -> collect informations from users  
-------
-<form>  -> handling form data 
-<input>  -> input elements of form -> submit, reset,text , password , email , data , time , range , color selection etc
-reset -> reset the form
-submit -> submit the form 
-syntax tag -> <input type="text">
-<label>
-<select> -> to select like dropdown
-<textarea> -> to add comments
-
--> <legend> ,<fieldset>
-when we have very large form like some exam form then they hacve multiple field such as personal infomation , address , education etc such thing are writen in <fieldset> 
-<fieldset> -> set of filed called fieldset and heading to filedset given called as <legned>
+Div Tag -> division 
+====================
 
 
-
-HTML 5 Tags
+CSS Basics
 ===========
-<section>
-<article>
-<nav>   -> mostly contains the links (anchor tag) <a href='#'>Home</a>
-<aside>
-<header>
-<footer>
-<figcaption>
-<figure>
-<audio>
-<video>
-website -> webpage -> section -> div /article
-for gallery below tag are used 
-<figcaption>
-<figure>
-
-focus on syntax only not css part
-
-CSS
-===
 inline -> style attribute 
 internal -> <style> tag -> <head>
 external -> .css -> </head>
@@ -168,8 +127,11 @@ List of items
 ==============
 Types 
 1) Ordered list ->(numbers, alphabates)<ol></ol>
-2)Un-Ordered List -> <ul></ul>
+2)Un-Ordered List -> <ul></ul>   -> like dots/circle/square etc
 3)List Items -> <li></li>
+
+Ex: 
+<ul type="square">
 
 Image Tag 
 =========
@@ -192,19 +154,83 @@ welcome -> wel-red , come-blue
   
 Anchor Tags /HTML Links -->  <a></a>
 =======================
-
-external url -> open in new tab 
+external url -> open in new tab  ->  target="_blank"
 ---------------
 syntax -> 
 <a href="https://google.com" target="_blank">Google</a>
+
+href -> hiper text referance
 
 internl url/part of website -> open in same tab
 ------------------------------
 syntax-> 
    <a href="https://google.com">Google</a>
+
 suppose you want to open some section of same page then use below 
+-----------------------------------------------------------------
+<a href="#contact">Contact US</a>      -> when you click on contactus it will go the id ="contact"
+<p>rgfyqegfhukiehrkghkht</p>
+
+    <div id="contact">
+        <h2>Contact us</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
 
 
+---------------------------------------------------------------------------------------------------------------------------
+-Tables
+=======
+<table>  -> 
+<thead>  ->heade section of table 
+<th>   -> table header for each table {by default html give the content in bold letters        , but by using css we can convert it to normal}
+<tbody>  ->body section of table 
+<tr>   ->table row  
+<td>   -> table data in table body {by default it is normal text (not bold letter)}
+<rowspan> -> row span -> combine two or more rows 
+<colspan> -> column span -> combine two or more column
+Ex:  <th colspan="2">SKILLS & EXPERIENCE</th> -> span of two columns
+-----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+-Forms -> collect informations from users  
+==========================================
 
+<form>  -> handling form data 
+<input>  -> input elements of form - input type->>> submit, reset,text , password , email , data , time , range , color selection etc
 
+syntax tag -> <input type="text">  -> control+space to get shortcut
+----------
+EX:
+<label>Email</label>
+<input type="email" placeholder="email"> -> placeholder is given to give name {email} inside the box
 
+reset -> reset the form
+submit -> submit the form 
+
+<label>  -> to give the name for the field 
+<select> -> to select like dropdown
+<textarea> -> to add comments
+
+-> <legend> ,<fieldset>
+when we have very large form like some exam form then they have multiple field such as personal infomation , address , education etc such thing are writen in <fieldset> 
+<fieldset> -> set of field called fieldset and heading to filedset given called as <legned>
+----------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+HTML 5 Tags
+===========
+<section>
+<article>
+<nav>   -> mostly contains the links (anchor tag) <a href='#'>Home</a>
+<aside>
+<header>
+<footer>
+<figcaption> -> mostly used for gallary
+<figure> -> mostly used for gallary
+<audio>
+<video>
+website -> webpage -> section -> div /article
+for gallery below tag are used 
+<figcaption>
+<figure>
+
+focus on syntax only not css part
+---------------------------------------------------------------------------------------------------------------------
